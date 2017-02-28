@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER_SIZE	readConfig.c	7;"	d	file:
+CALTYPE_H	calType.h	6;"	d
+CAL_CONF_PATH	main.c	10;"	d	file:
+CAL_CONF_PATH	readConfig.c	8;"	d	file:
+MAX_BUF_SIZE	main.c	11;"	d	file:
+MESSAGETABLE_H	messageTable.h	6;"	d
+_READ_CONFIG_H	readConfig.h	2;"	d
+_message	messageTable.c	/^struct _message{$/;"	s	file:
+ch	messageTable.c	/^    char ch;$/;"	m	struct:_message	file:
+cmd_prompt	main.c	/^char cmd_prompt[MAX_BUF_SIZE];$/;"	v
+creatMessage	messageTable.c	/^creatMessage(const char ch, pFunc pfunc){$/;"	f	file:
+creatMessageTable	messageTable.c	/^creatMessageTable(pMessage* pHeader, pMessage* pTailer){$/;"	f
+deleteMessageTable	messageTable.c	/^deleteMessageTable(pMessage* pHeader, pMessage* pTailer) {$/;"	f
+header	main.c	/^pMessage header;$/;"	v
+insertAsPred	messageTable.c	/^insertAsPred(pMessage pcur, const char ch, pFunc pfunc){$/;"	f	file:
+insertAsSucc	messageTable.c	/^insertAsSucc(pMessage pcur, const char ch, pFunc pfunc){$/;"	f	file:
+insertMessageTable	messageTable.c	/^insertMessageTable(pMessage* pHeader, pMessage* pTailer, const char ch, pFunc pfunc){$/;"	f
+lib	main.c	/^void *lib;$/;"	v
+main	main.c	/^int main(int argc, char **argv){$/;"	f
+message	messageTable.h	/^typedef struct _message message;$/;"	t	typeref:struct:_message
+notifyEvent	main.c	/^void* notifyEvent(void *arg){$/;"	f
+pFunc	calType.h	/^typedef type_t (*pFunc)(type_t, type_t);$/;"	t
+pMessage	messageTable.h	/^typedef message* pMessage;$/;"	t
+pfunc	messageTable.c	/^    pFunc pfunc;$/;"	m	struct:_message	file:
+pred	messageTable.c	/^    struct _message* pred;$/;"	m	struct:_message	typeref:struct:_message::_message	file:
+readConfig	readConfig.c	/^void readConfig(pMessage* pHeader, pMessage* pTailer) {$/;"	f
+removeMessage	messageTable.c	/^removeMessage(pMessage pcur){$/;"	f	file:
+searchMessageTable	messageTable.c	/^searchMessageTable(pMessage* pHeader, pMessage* pTailer, const char ch){$/;"	f
+succ	messageTable.c	/^    struct _message* succ;$/;"	m	struct:_message	typeref:struct:_message::_message	file:
+tailer	main.c	/^pMessage tailer;$/;"	v
+type_t	calType.h	/^typedef int type_t;$/;"	t
+update	main.c	/^int update;$/;"	v
