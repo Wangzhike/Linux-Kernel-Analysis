@@ -33,7 +33,7 @@ char * path_alloc(size_t *sizep)	/* also return allocated size, if nonnull */
 		} else {
 			/* 
 			 * 对_PC_PATH_MAX而言，long pathconf(const char *pathname, int name)
-			 * 是基于工作目录pathname的相对路径名的最大长度，我们需要的是一个绝对
+			 * 是基于工作目录pathname('/')的相对路径名的最大长度，我们需要的是一个绝对
 			 * 路径名的最大长度
 			 */
 			pathmax++;	/* add one since it's relative to root */
