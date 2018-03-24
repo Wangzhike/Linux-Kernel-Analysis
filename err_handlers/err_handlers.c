@@ -1,5 +1,7 @@
 #include "err_handlers.h"
 
+static void err_handle(int errnoflag, int error, const char *fmt, va_list ap);
+
 /*
  * Fatal error unrelated to a system call.
  * Print a message and terminate.

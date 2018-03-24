@@ -10,7 +10,6 @@
 #include <limits.h>
 
 #define MAXLINE 	2048
-static void err_handle(int errnoflag, int error, const char *fmt, va_list ap);
 /* fatal error handlers */
 	/* unrelated to a system call */
 extern void err_quit(const char *fmt, ...);
