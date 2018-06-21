@@ -1,0 +1,1 @@
+cmd_/home/qiuyu/code/drivers/scull/scull.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/qiuyu/code/drivers/scull/scull.ko /home/qiuyu/code/drivers/scull/scull.o /home/qiuyu/code/drivers/scull/scull.mod.o
