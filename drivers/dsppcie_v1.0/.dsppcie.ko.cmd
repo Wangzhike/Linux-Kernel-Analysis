@@ -1,0 +1,1 @@
+cmd_/home/qiuyu/code/dsppcie_v1.0/dsppcie.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/qiuyu/code/dsppcie_v1.0/dsppcie.ko /home/qiuyu/code/dsppcie_v1.0/dsppcie.o /home/qiuyu/code/dsppcie_v1.0/dsppcie.mod.o ;  true
